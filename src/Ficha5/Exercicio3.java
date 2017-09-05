@@ -16,8 +16,7 @@ public class Exercicio3 {
     public static int soma(String valor, int indice, int a, String b){
    
        
-        if (indice==0)
-            return a;
+        
         
         
         
@@ -25,7 +24,8 @@ public class Exercicio3 {
     
     a = Integer.parseInt(b);
     
-    
+    if (indice==0)
+            return a;
         
     
     
